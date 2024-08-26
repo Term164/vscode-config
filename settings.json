@@ -90,5 +90,10 @@
     "[jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "editor.fontWeight": "bold" 
   }
