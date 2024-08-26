@@ -84,7 +84,16 @@
       "command": "workbench.action.previousEditorInGroup",
       "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
     },
-  
+      {
+      "key": "space s s",
+      "command": "workbench.action.splitEditor",
+      "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
+    }, 
+    {
+      "key": "space s v",
+      "command": "workbench.action.splitEditorDown",
+      "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
+    },
     // EXTRA
     {
       "key": "ctrl+shift+5",
