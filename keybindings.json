@@ -96,6 +96,11 @@
     },
     // EXTRA
     {
+      "key": "space w",
+      "command": "workbench.action.files.save",
+      "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
+    },
+    {
       "key": "ctrl+shift+5",
       "command": "editor.emmet.action.matchTag"
     },
