@@ -109,10 +109,6 @@
       "command": "workbench.action.toggleZenMode"
     },
     {
-      "key": "space v",
-      "command": ":vsplit"
-    },
-    {
       "key": "tab",
       "command": "workbench.action.nextEditorInGroup",
       "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
@@ -123,6 +119,14 @@
       "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
     },
     // Coding
+        {
+      "key": "shift+ctrl+f",
+      "command": "find-it-faster.findWithinFiles"
+    },
+    {
+      "key": "ctrl+g",
+      "command": "lazygit-vscode.toggle"
+    },
     {
       "key": "shift-j",
       "command": "editor.action.moveLinesDownAction",
