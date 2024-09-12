@@ -65,17 +65,16 @@
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "editor.fontVariations": true,
-    "editor.fontWeight": "bold" 
-
-      "apc.menubar.compact": true,
-  "apc.activityBar": {},
-  "apc.electron": {
+    "editor.fontWeight": "bold",
+    "apc.menubar.compact": true,
+    "apc.activityBar": {},
+    "apc.electron": {
       "opacity": 0.95,
       "backgroundColor": "#00000000",
       "frame": false,
       "vibrancy": "ultra-dark",
       "visualEffectState": "active"
-  },
+    },
 
    "apc.stylesheet": {
       ".inline-tabs-placeholder": "display: none !important;",
